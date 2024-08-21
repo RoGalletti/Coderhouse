@@ -1,0 +1,96 @@
+.header{
+    
+    background: linear-gradient(rgb(67, 141, 67),yellow)
+    
+}
+body {
+    background-color: #f7c8c8; /* Reemplaza #f0f0f0 con el color deseado */
+}
+.img {
+    height: 500px;
+    border-radius: 10px;
+    margin: 5px 15px 15px 20px;    
+    display: flex;
+    flex-direction:row;
+}
+
+.h1titulo{
+    background-color: rgb(11, 58, 7);
+    font-size: 30px ;
+    color: gold;
+    border-radius: 10px;
+    display: flexbox; 
+    margin-left: 20px;
+
+}
+.h1tituloindex{
+    background-color: rgb(11, 58, 7);
+    font-size: 50px ;
+    color: gold;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20px;
+
+}
+.h2titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: rgb(41, 31, 5);
+    font-family: monospace;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.imge{
+    width: 690px;
+    height: 500px;
+}
+.imgc{
+    width: 520px;
+    height: 580px;
+}
+.imglibreria{
+    display: flex;
+    
+    width: 570px;
+    height: 320px;
+}
+.mapa{
+    width: 100px;
+    height: 90px;
+}
+.videoinicio{
+    width: 100px;
+    height: 90px;
+}
+.estrellas{
+    width: 100px;
+    height: 90px;
+}
+.elementosenlineamapa{
+    display: inline;
+    margin: 5px 50px 5px 50px;  
+}
+.elementoenlineavideo{
+    display: inline;
+    margin: 5px 100px 5px 50px ;
+}
+.elementosenlineaestrellas{
+    display: inline;
+    margin: 5px 100px 5px 50px;
+}
+.div{
+    font-size: 16px;
+    margin-left: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif  
+}
+.buscar{
+    margin-left: 25px;
+}
+
+.classimgflex{
+    
+    display: flex;
+    margin-left: 100px;
+
+}
