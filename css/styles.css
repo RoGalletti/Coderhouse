@@ -1,36 +1,41 @@
 .header{
-    
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column 3;
     background: linear-gradient(rgb(67, 141, 67),yellow)
     
 }
-body {
-    background-color: #f7c8c8; /* Reemplaza #f0f0f0 con el color deseado */
-}
-.img {
-    height: 500px;
+.logo {
+    width: 150px;
+    height: 150px;
     border-radius: 10px;
     margin: 5px 15px 15px 20px;    
+}
+
+.frase{
+    
+    font-size: 40px ;
+    color: gold;
+    border-radius: 10px;
     display: flex;
-    flex-direction:row;
+    justify-content: center;
+    margin: 30px 20px 20px 20px;
 }
 
 .h1titulo{
+
     background-color: rgb(11, 58, 7);
     font-size: 30px ;
-    color: gold;
+    background: linear-gradient(rgb(67, 141, 67),yellow)
     border-radius: 10px;
     display: flexbox; 
     margin-left: 20px;
 
 }
-.h1tituloindex{
-    background-color: rgb(11, 58, 7);
-    font-size: 50px ;
-    color: gold;
-    border-radius: 10px;
-    display: inline-block;
-    margin-left: 20px;
 
+body {
+    background-color: #f7c8c8;
 }
 .h2titulo{
     display: flex;
@@ -94,3 +99,28 @@ body {
     margin-left: 100px;
 
 }
+.menunav{
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+  /* Estilos del contenedor */
+.contenedor {
+    display: flex;           /* Hacemos que el contenedor use flexbox */
+    justify-content: space-between; /* Espacio igual entre columnas */
+    gap: 10px;               /* Espacio entre columnas */
+}
+
+/* Estilos de las columnas */
+.columna {
+    flex: 1;                 /* Las columnas se distribuyen equitativamente */
+    border: 1px solid #000;  /* Solo para visualizar mejor */
+    padding: 10px;           /* Espacio interno */
+    box-sizing: border-box;  /* Incluye el padding y border en el width */
+}
+
+  
