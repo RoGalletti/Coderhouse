@@ -1,50 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.icono{
+    border-radius: 1280px;
+}
 .header{
-    width: 200px;
-    height: 200px;
-    display: flex;
-    flex-direction: column 3;
-    background: linear-gradient(rgb(67, 141, 67),yellow)
-    
-}
-.logo {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    margin: 5px 15px 15px 20px;    
+    width: 768px; 
+    height: 100px;
+    display: flex; 
+}  
+.realheader{
+    width: 100%;
 }
 
-.frase{
+.cuerpo{
+
+    overflow-x: hidden;
+}
+.silencioysalud{
+    font-family: "Rubik" sans-serif;
+    height: 100px;
     
-    font-size: 40px ;
-    color: gold;
     border-radius: 10px;
+    background-color: rgb(94, 145, 158);
     display: flex;
+    flex-direction: row;
+    font-size: 45px;
     justify-content: center;
-    margin: 30px 20px 20px 20px;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(1, 18, 39);
+    padding-left: 200px;
+
+}
+@media (max-width:576px){       
+
+}
+    
+.iconosredes{
+    display: flex;
+    padding-top: 18px;
+    padding-left: 80px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    gap: 50px;
+    font-size: 35px;
+    margin-left: auto;
+
+    
+}  
+.iconored{
+
+    width: 50px;
+    height: 55px;
+    content: 5px;
+    
+}   
+.tituloprincipal{
+    text-align: center;
+    margin-left: auto;
+}
+    
+.preguntas{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 200px;
+    margin-top: 35px;
+    margin-left: 25px;
+    
+}
+.cuestionario{
+    border-radius: 15px;
+    border-style:
+    
 }
 
+    
+
+.elespacioindicado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Rubik" sans-serif;
+    color: rgb(1, 18, 39);
+    height: 45px;
+    width: 100%;
+    
+    
+    
+
+}
+.contenedor1 {
+    height: 550px; 
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(94, 145, 158);
+    font-size: 15px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+
+
+    }
+.header {
+    background-color: rgb(51, 150, 175);
+    margin-top: 10px;
+
+}
+.headermenu{
+    display: flex;
+    flex-direction: row;
+    font-family: "Rubik" sans-serif;
+    width: 100px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.headermenutamano{
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.headermenuitems{
+    width: 100%;
+    font-size: 18px;
+}
+  .logo {
+    width: 100%;
+    height: 550px;
+    border-radius: 10px;
+    
+    border: 5px; 
+      
+}
+.contenedor2{
+    color: rgb(218, 252, 238);
+    font-size: 16px;
+    border-radius: 5px;
+    border: 5px;
+    border-color: rgb(51, 150, 175);
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    align-items:center;
+    margin-left: 12px;
+    margin-right: 8px;
+    background-image: url(../assets/meditativo.jpg)
+    
+    
+
+}
+.subrayado{
+    text-decoration: underline;
+}
 .h1titulo{
 
     background-color: rgb(11, 58, 7);
     font-size: 30px ;
-    background: linear-gradient(rgb(67, 141, 67),yellow)
+    background: linear-gradient(rgb(67, 141, 67),yellow);
     border-radius: 10px;
-    display: flexbox; 
-    margin-left: 20px;
+    display:flex;
+   
 
 }
 
-body {
-    background-color: #f7c8c8;
-}
 .h2titulo{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    font-size: 25px;
-    color: rgb(41, 31, 5);
-    font-family: monospace;
+    align-items: baseline;
+    
+    font-size: 16px;
+    border: 5px;
+    border-style: solid rgb(39, 156, 156);
     border-radius: 10px;
+    margin-top: 5px;
     margin-left: 15px;
+    width: 100%;
+    
+}
+.div{
+    width: 100%;
+    margin-left: 25px;
+    border-style: solid 5px black;
+    margin-top: 8px;
+    font-size: 20px;
+    
+   
+}
+.div2{
+    margin-top: 5px;
+    border-style: solid 5px black;
+    
+    font-size: 20px;
+    
+}
+nivelescolor a {
+    color: greenyellow;
 }
 .imge{
     width: 690px;
@@ -61,36 +221,33 @@ body {
     height: 320px;
 }
 .mapa{
-    width: 100px;
-    height: 90px;
+    width: 400px;
+    height: 200px;
+    
 }
 .videoinicio{
     width: 100px;
     height: 90px;
 }
 .estrellas{
-    width: 100px;
-    height: 90px;
+    width: 400px;
+    height: 200px;
 }
 .elementosenlineamapa{
     display: inline;
-    margin: 5px 50px 5px 50px;  
+    margin: 5px 50px 5px 50px; 
+    width: 400px;
+    height: 200px; 
 }
 .elementoenlineavideo{
     display: inline;
-    margin: 5px 100px 5px 50px ;
+    margin: 5px 100px 5px 50px;
+    width: 400px;
+    height: 200px;
 }
 .elementosenlineaestrellas{
     display: inline;
     margin: 5px 100px 5px 50px;
-}
-.div{
-    font-size: 16px;
-    margin-left: 15px;
-    font-family:Georgia, 'Times New Roman', Times, serif  
-}
-.buscar{
-    margin-left: 25px;
 }
 
 .classimgflex{
@@ -99,28 +256,24 @@ body {
     margin-left: 100px;
 
 }
-.menunav{
-    border-radius: 15px;
-    box-sizing: border-box;
-    width: 200px;
+
+.niveles{
+    padding-left: 5rem;
+    color: greenyellow;
+}
+.fuentes{
+        font-family: "Rubik", sans-serif;
+}
+
+.footer{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    width: 1100px;
+    height: 300px;
+    padding: 200px;
+    padding-top: 15px;
+    padding-right: 100px;
+    padding-left: 200px;
+    justify-items: flex-end;
+    align-items:center;
 }
-    
-  /* Estilos del contenedor */
-.contenedor {
-    display: flex;           /* Hacemos que el contenedor use flexbox */
-    justify-content: space-between; /* Espacio igual entre columnas */
-    gap: 10px;               /* Espacio entre columnas */
-}
-
-/* Estilos de las columnas */
-.columna {
-    flex: 1;                 /* Las columnas se distribuyen equitativamente */
-    border: 1px solid #000;  /* Solo para visualizar mejor */
-    padding: 10px;           /* Espacio interno */
-    box-sizing: border-box;  /* Incluye el padding y border en el width */
-}
-
-  
