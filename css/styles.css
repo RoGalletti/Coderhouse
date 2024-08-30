@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+
+
 .icono{
     border-radius: 1280px;
 }
@@ -8,45 +10,55 @@
     height: 100px;
     display: flex; 
 }  
-.realheader{
-    width: 100%;
-}
 
 .cuerpo{
 
     overflow-x: hidden;
 }
 .silencioysalud{
-    font-family: "Rubik" sans-serif;
+    font-family: "Rubik" sans-serif white;
+    width: 100vw;
     height: 100px;
-    
-    border-radius: 10px;
-    background-color: rgb(94, 145, 158);
+   
+    background-color: rgb(9, 83, 102);
     display: flex;
     flex-direction: row;
     font-size: 45px;
     justify-content: center;
     align-items: center;
     margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: rgb(1, 18, 39);
-    padding-left: 200px;
+    margin-left: 0px;
+    color: rgb(26, 203, 216);
+    padding-right: 200px;
+    padding-left: 400px;
+
+    
 
 }
-@media (max-width:576px){       
+@media (max-width:576px){ 
+        .silencioysalud{
+            font-size: 25px;
+            background-color: rgb(29, 25, 78);
+        }      
+        
 
 }
     
 .iconosredes{
     display: flex;
     padding-top: 18px;
-    padding-left: 80px;
+    padding-left: 25px;
     padding-right: 0px;
     padding-bottom: 5px;
     gap: 50px;
-    font-size: 35px;
+    font-size: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
+
+    @media (max-width:576px){
+    gap: 20px;
+    font-size: 15px;    
+}
 
     
 }  
@@ -58,10 +70,15 @@
     
 }   
 .tituloprincipal{
-    text-align: center;
-    margin-left: auto;
+    
+    text-align: right 10px;
+    
+   
 }
     
+.nav-wrap {
+    padding: 0 0.5em;
+}
 .preguntas{
     display: flex;
     flex-direction: column;
@@ -69,6 +86,7 @@
     height: 200px;
     margin-top: 35px;
     margin-left: 25px;
+    font-size: 12px;
     
 }
 .cuestionario{
@@ -102,9 +120,11 @@
     flex-direction: column;
     background-color: rgb(94, 145, 158);
     font-size: 15px;
+    justify-content: center;
     align-items: center;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 0px;
+    padding-left: px;
 
 
     }
@@ -115,18 +135,23 @@
 }
 .headermenu{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: left;
     font-family: "Rubik" sans-serif;
     width: 100px;
     border-radius: 15px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-right: 20px;
+    pad: 5px;
+    padding-left: 5px;
+    padding-right: 15px;
 
 }
 .headermenutamano{
     width: 100%;
+    padding-right: 1em;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: px;
     margin-right: 20px;
 }
 .headermenuitems{
@@ -142,18 +167,25 @@
       
 }
 .contenedor2{
+    width: 100%;
+    height: 1400px;
     color: rgb(218, 252, 238);
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 5px;
     border: 5px;
     border-color: rgb(51, 150, 175);
     display: flex;
     flex-direction: column;
+    overflow: auto;
     margin-top: 5px;
     align-items:center;
-    margin-left: 12px;
-    margin-right: 8px;
-    background-image: url(../assets/meditativo.jpg)
+    margin-left: 0px;
+    margin-right: px;
+    background-image: url(../assets/meditativo.jpg);
+    border-left: 5px;
+    padding-top: 15px;
+    padding-left: 15px;
+    
     
     
 
@@ -177,22 +209,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    
-    font-size: 16px;
+    font-family: "Rubik" sans-serif;
+    font-size: 18px;
     border: 5px;
     border-style: solid rgb(39, 156, 156);
     border-radius: 10px;
     margin-top: 5px;
     margin-left: 15px;
-    width: 100%;
+    width: 1200px;
     
 }
 .div{
-    width: 100%;
-    margin-left: 25px;
+    width: 1300px;
+    margin-left: 5px;
     border-style: solid 5px black;
-    margin-top: 8px;
-    font-size: 20px;
+    margin-top: 10px;
+    font-size: 16px;
     
    
 }
@@ -200,7 +232,7 @@
     margin-top: 5px;
     border-style: solid 5px black;
     
-    font-size: 20px;
+    font-size: 14px;
     
 }
 nivelescolor a {
@@ -264,16 +296,107 @@ nivelescolor a {
 .fuentes{
         font-family: "Rubik", sans-serif;
 }
-
+.card{
+    font-family: "Rubik" sans-serif;
+    font-style: black;
+}
 .footer{
     display: flex;
     flex-direction: row;
     width: 1100px;
-    height: 300px;
+    height: 500px;
     padding: 200px;
-    padding-top: 15px;
-    padding-right: 100px;
-    padding-left: 200px;
-    justify-items: flex-end;
-    align-items:center;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
+    justify-items: space-around;
+    align-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.textofooter{
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: "Rubik" sans-serif;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.sobrenosotros{
+ 
+}
+
+.footerow{
+    background-color: rgb(163, 162, 162);
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    padding-left: 45px;
+    font-size: 16px;
+    padding-top: 35px;
+
+}
+
+.footercolumn{
+    background-color: rgb(163, 162, 162);
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+   
+
+}
+.titulofooter{
+    font-size: 15px;
+    
+
+
+}
+.logo2{
+    width: 100%;
+    height: 550px;
+    padding-left: 5px;
+    
+    margin-bottom: 5px;
+}
+.contenedor3{
+    height: 100%; 
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+   
+    
+   
+    
+
+}
+.textosimplefooter{
+    background-color: rgb(163, 162, 162);
+    text-align: center;
+}
+.fondocards{
+    background-color: rgb(30, 143, 124);
+
+}
+.tamanotesto{
+    font-size: 18px;
+}
+.iconocarouselte{
+    color: black;
+}
+.tamanocarousel{
+    width: 600px;
+   height: 100px
+
+}
+.tamanofotocarrusel{
+    height: 400px;
+}
+.texto{
+    padding-left: 35px;
+    padding-top: 55px;
 }
