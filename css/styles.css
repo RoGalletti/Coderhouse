@@ -101,20 +101,67 @@
 .preguntas{
     display: flex;
     flex-direction: column;
-    width: 800px;
-    height: 200px;
-    margin-top: 35px;
-    margin-left: 25px;
-    font-size: 12px;
-    
+    width: 100%; 
+    max-width: 800px; 
+    height: auto; 
+    margin: 35px auto 0; 
+    font-size: 4vw; 
+    box-sizing: border-box; 
+    padding: 0 15px; 
 }
+
+@media (max-width: 600px) {
+    .preguntas {
+        font-size: 5vw; 
+        padding: 0 10px; 
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .preguntas {
+        font-size: 4.5vw; 
+        padding: 0 12px; 
+    }
+}
+
 .cuestionario{
     border-radius: 15px;
-    border-style:
+    border: 2px solid #0a5257;
+    width: 90%; 
+    max-width: 600px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    box-sizing: border-box;
     
 }
 
-    
+ 
+@media (max-width: 600px) {
+    .cuestionario {
+        width: 95%; 
+        padding: 15px; /
+        border-width: 1px; 
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .cuestionario {
+        width: 90%; 
+        padding: 18px; 
+        border-width: 2px; 
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .cuestionario {
+        width: 80%; 
+        padding: 20px; 
+        border-width: 2px; 
+    }
+}   
 
 .elespacioindicado{
     display: flex;
@@ -275,8 +322,34 @@
 }
 
 .subrayado{
-    text-decoration: underline;
+    text-decoration: underline; 
+    font-size: 4vw; 
+    box-sizing: border-box; 
+    padding: 5px; 
 }
+
+@media (max-width: 600px) {
+    .subrayado {
+        font-size: 5vw; 
+        padding: 4px; 
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .subrayado {
+        font-size: 4.5vw; 
+        padding: 4.5px; 
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .subrayado {
+        font-size: 16px; 
+        padding: 5px;
+    }
+}
+
 .h1titulo{
 
     background-color: rgb(11, 58, 7);
@@ -378,7 +451,34 @@ nivelescolor a {
     color: greenyellow;
 }
 .fuentes{
-        font-family: "Rubik", sans-serif;
+    font-family: "Rubik", sans-serif;
+    font-size: 4vw; 
+    line-height: 1.5; 
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 600px) {
+    .fuentes {
+        font-size: 5vw; 
+        line-height: 1.6; 
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .fuentes {
+        font-size: 4.5vw; 
+        line-height: 1.55; 
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .fuentes {
+        font-size: 16px; 
+        line-height: 1.5; 
+    }
 }
 .card{
     font-family: "Rubik" sans-serif;
