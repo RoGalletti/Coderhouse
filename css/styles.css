@@ -628,12 +628,32 @@ nivelescolor a {
 
 
 .logo2{
-    width: 100%;
-    height: 550px;
-    padding-left: 5px;
-    
-    margin-bottom: 5px;
+    width: 100%; 
+    height: auto; 
+    max-height: 400px; 
+    padding-left: 10px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+
 }
+
+@media (max-width: 600px) {
+    .logo2 {
+        max-height: 200px;
+        padding-left: 5px; 
+        margin-bottom: 5px; 
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .logo2 {
+        max-height: 300px; 
+        padding-left: 8px; 
+        margin-bottom: 8px; 
+    }
+}
+
 .contenedor3{
     height: auto; 
     width: 100%; 
@@ -692,12 +712,41 @@ nivelescolor a {
 .tamanotesto{
     font-size: 18px;
 }
+
+@media (max-width: 600px) {
+    .tamanotesto {
+        font-size: 5vw; 
+        line-height: 1.5; 
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .tamanotesto {
+        font-size: 4.5vw; 
+        line-height: 1.45; 
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .tamanotesto {
+        font-size: 18px; 
+        line-height: 1.4; 
+    }
+}
+
 .iconocarouselte{
     color: black;
 }
 .tamanocarousel{
-    width: 600px;
-   height: 100px
+    width: 90%;  
+    max-width: 600px; 
+    height: auto; 
+    aspect-ratio: 6 / 1; 
+    margin: 0 auto; 
+    padding: 0 10px; 
+    box-sizing: border-box;
 
 }
 .tamanofotocarrusel{
