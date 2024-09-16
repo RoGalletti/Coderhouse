@@ -1,9 +1,9 @@
-/* Error: expected ":".
+/* Error: expected ";".
  *   ,
- * 2 | $fuentetitulosprincipales
- *   |                          ^
+ * 3 | $fuentesubtitulos:
+ *   |                  ^
  *   '
- *   scss\utilities\_variables.scss 2:26  @import
+ *   scss\utilities\_variables.scss 3:18  @import
  *   scss\estilos.scss 1:9                root stylesheet */
 
 body::before {
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected ":".\a   \2577 \a 2 \2502  $fuentetitulosprincipales\d\a   \2502                           ^\a   \2575 \a   scss\\utilities\\_variables.scss 2:26  @import\a   scss\\estilos.scss 1:9                root stylesheet';
+  content: 'Error: expected ";".\a   \2577 \a 3 \2502  $fuentesubtitulos:\d\a   \2502                   ^\a   \2575 \a   scss\\utilities\\_variables.scss 3:18  @import\a   scss\\estilos.scss 1:9                root stylesheet';
 }
