@@ -29,8 +29,11 @@
 
 @media (max-width: 600px) {
     .tituloencabezado {
+        display: flex;
+        flex-direction: column;
         font-size: 7vw; 
         padding: 0 8%; 
+        
         
     }
 }
@@ -52,7 +55,18 @@
          
     }
 }
+ .silencioysalud{
+    display: flex;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 30px;
     
+ }   
+ @media (max-width: 600px) {
+    .silencioysalud{
+        height: 30px;
+    }
+ } 
 .iconosredes{
     display: flex;
     flex-wrap: wrap;
@@ -61,13 +75,19 @@
     font-size: 2vw;
     margin-bottom: 20px;
     margin-left: auto;
-    justify-content: center;
+    
 } 
 
 @media (max-width: 600px) {
     .iconosredes {
+        display: flex;
+        flex-direction: row;
         font-size: 2vw; 
-        gap: 15px;
+        padding-top: 0px;
+        padding-right: 90px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
     }
 }
 
@@ -85,12 +105,34 @@
     width: 100%;
     height: auto;
     border-top: 2px;
-    margin: 0px;
+    margin-top: 0px;
     overflow-x: auto;
     padding: 10px;
-    
-    
  }
+ @media (max-width: 600px) {
+    .carruselprincipal {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       height: auto;
+       margin-top: 5px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .carruselprincipal {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 1025px) {
+    
+}   
 .carrusel1texto{
     width: 40%;
     height: 460px;
@@ -108,6 +150,26 @@
 @media (max-width: 600px){
     .carrusel1texto{
         font-size: 12px;
+        margin-top: 0px;
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+       
+    }
+}
+@media (min-width: 601px) and (max-width: 1023px){
+    .carrusel1texto{
+        width: 40%;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-right: 20px;
+        
+        text-align: left;
+
     }
 }
 @media (max-width: 1024px){
@@ -137,10 +199,37 @@
 }
 .carrusel-item2{
     
-    width: 60%;
+    width: 50%;
     height: auto;
     border-radius: 5px;
     margin-top: 10px;
+}
+@media (max-width: 600px){
+    .carrusel-item2{
+        font-size: 12px;
+        margin-top: 0px;
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+}
+@media (min-width: 601px) and (max-width: 1023px){
+    .carrusel1texto{
+        width: 60%;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-right: 20px;
+        
+        text-align: left;
+
+    }
+}
+@media (min-width: 1024px){
+    .carrusel1texto{}
 }
 
 .carruselsecundario{
@@ -154,6 +243,11 @@
     padding: 10px;
     
 }
+@media (max-width: 600px){
+    .carruselsecundario{
+      margin-right: 0px;
+    }
+}
 .carruseldostexto{
     text-align: center;
     color: white;
@@ -163,39 +257,52 @@
 .h2index{
     display: flex;
     flex-direction: row;
+    font-size: 14px;
     margin: 5px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-bottom: 0px;
     width: 100%;
-    height: auto;
+    height: 30px;
     color:rgb(255, 255, 255);
     text-align: center;
     background-color: #0b755e;
     font-family: "Rubik" sans-serif;
     padding-top: 10px;
-    padding-left: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
     
    
 }
-@media (max-width: 767px) {
+@media (max-width: 600px) {
     .h2index {
-        width: 100%;
-        height: 80px; 
-        padding-left: 15px; 
-        font-size: 14px; 
+        width: 95%;
+        height: 100px;
+        
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        font-size: 6vw;
+        margin-left: 10px;        
+        margin-bottom: 0px;
+        
     }
 
 }
-@media (max-width: 1023px) and (min-width: 768px) {
+@media (min-width: 601px) {
     .h2index {
-        width: 100%; 
-        height: 100px; 
-        padding-left: 25px; 
+        display: flex;
+        flex-direction: row;
+        height: auto; 
+        width: 100%;
+        /*padding-left: 25px; */
+        
     }
 }
 @media (min-width: 1024px) {
     .h2index {
-        width: 100%;
+        
+        height: auto;
         padding-left: 30px; 
         margin-right: 0px;
     }
@@ -214,7 +321,7 @@ carousel-inner-img {
     margin: 15px auto 15px; 
     font-size: 12px; 
     box-sizing: border-box; 
-    padding: 0 15px;
+    padding-right: 10px;
     line-height: 0;
     border: 0px auto
 }
@@ -223,6 +330,7 @@ carousel-inner-img {
     .preguntas {
         font-size: 3vw; 
         padding: 0 10px; 
+        
     }
 }
 
@@ -303,14 +411,15 @@ carousel-inner-img {
     background-color: #0b755e;
     height: 500px;
     width: 100vw; 
-    margin: 0 ; 
-    padding: 0 5%; 
+    margin: 0 ;
+    padding-bottom: 15px;
+    padding: 15px 5% 20px; 
     box-sizing: border-box; 
     font-size: 3vw;
 }
 @media (max-width: 600px) {
     .elespacioindicado {
-        font-size: 6vw;
+        font-size: 14px;
         height: auto;        
         padding: 0 3%;  
     }
@@ -342,8 +451,12 @@ carousel-inner-img {
     margin-top: 10px;
     
 }
-
-@media (max-width: 600px) and (max-width: 1024px){
+@media (max-width: 600px) {
+    .contenedor1 {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 1024px){
     .contenedor1 {        
         font-size: 4vw;        
         padding: 0 3%; 
@@ -395,13 +508,13 @@ carousel-inner-img {
         font-size: 14px;
     }
 }
-@media (min-width  601px {
+@media (min-width  601px) {
     .headermenuitems:
     font-size: 14px;
-})
+}
 @media (min-width: 1025px) {
     .headermenuitems {
-        font-size: 12px;
+        font-size: 16px;
     }
     
 }
@@ -818,16 +931,13 @@ carousel-inner-img {
 
 @media (min-width: 601px) and (max-width: 1024px) {
     .textosimplefooter {
-        font-size: 2vw; 
+        font-size: 12px; 
         padding: 9px; 
     }
 }
 
-.fondocards{
-    background-color: rgb(30, 143, 124);
 
-}
-.tamanotesto{
+.tamanotesto{                   /*REVISAR SI ESTA EN USO*/
     font-size: 18px;
 }
 
@@ -947,7 +1057,7 @@ carousel-inner-img {
     border-top: 10px;
     padding-top: 5vw;
     text-decoration:underline;
-}*/
+}
 @media (max-width: 600px) {
     .h2 {
         font-size: 6vw; 
@@ -958,7 +1068,7 @@ carousel-inner-img {
         font-size: 58px;
         padding-top: 15px; 
     }
-}
+}*/
 
 .contenedordostexto{
     display: flex;
@@ -990,7 +1100,7 @@ carousel-inner-img {
         font-size: 16px;
     }
 }
-.divcarruselprincipal{
+/*.divcarruselprincipal{
     display: flex;
     flex-wrap: wrap; /
     padding-left: 5px;
@@ -998,6 +1108,22 @@ carousel-inner-img {
     box-sizing: border-box; 
     
 }
+@media (max-width: 767px) {
+    .divcarruselprincipal {
+        
+    }
+
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+    .divcarruselrincipal {
+        
+    }
+}
+@media (min-width: 1024px) {
+    .divcarruselprincipal {
+        
+    }
+}*/
 .carrusel-item {
     flex: 1 1 30%; 
     padding: 10px; 
@@ -1059,14 +1185,85 @@ carousel-inner-img {
     margin: 15px auto 5px;
     font-size: 12px;
     align-items: center;
-    background-color: rgb(245, 224, 39)
+    background-color: rgb(245, 224, 39);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 .footertitulos{
     font-size: 12px;
     text-align: center;
+    margin-bottom: 5px;
 }
 .footercontenido{
     text-align: center;
 
+}
+@media (max-width: 600px){
+    .footercontenido{
+      margin-bottom: 0px;
+      line-height: 12.5px;
+    }
+}
+
+/*SOBRE NOSOTROS*/
+
+.quienesomos{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.quienesomosfondo{
+    z-index: 1; 
+    color: white;
+}
+.h2sobrenosotros{
+    text-align: left;
+    font-family: "Rubik" sans-serif;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: ;
+}
+@media (max-width: 600px){
+    .h2sobrenosotros{
+        font-size: 12px;
+    }
+}
+.quienesomostexto{
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.fondocards{
+    background-color: rgb(30, 143, 124);
+    font-size: 20px;
+
+}
+.card-group{
+    margin-bottom: 15px;
+}
+.contenedornuestroespacio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 2000px;
+
+}
+
+@media (max-width: 600px){
+    .nuestroesoaciofotos{
+        flex-wrap: wrap;
+    }
+}
+.nuestroespaciofotos1{
+    width: 100%;
+    height: 50%;
+    
+}
+.nuestroespaciofotos2{
+    width: 50%;
 }
