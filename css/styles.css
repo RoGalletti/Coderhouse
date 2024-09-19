@@ -1215,6 +1215,7 @@ carousel-inner-img {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding-left: 5px;
+    padding-bottom: 5px;
 }
 .quienesomosfondo{
     z-index: 1; 
@@ -1275,4 +1276,60 @@ carousel-inner-img {
 }
 .nuestroespaciofotos2{
     width: 50%;
+}
+
+/*LIBRERIA*/
+
+.libreria{
+    font-family: "Rubik" sans-serif;
+    background-image: linear-gradient(to right, rgb(123, 139, 122), rgb(236, 214, 15));
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+@media (max-width: 600px){
+    .libreria{
+        width
+    }
+}
+.container {
+    width: 80%;
+    max-width: 600px;
+    
+}
+
+.book-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.book-item {
+    background-color: #139224;
+    border: 1px solid #084708;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.book-item:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 5px 0 0;
 }
