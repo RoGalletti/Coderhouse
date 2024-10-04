@@ -1246,7 +1246,7 @@ carousel-inner-img {
 @media (max-width: 600px){
     .h2sobrenosotros{
         font-size: 18px;
-        text
+    
     }
 }
 .quienesomostexto{
@@ -1267,7 +1267,7 @@ carousel-inner-img {
 }
 @media (min-width:601px) and (max-width:1440px){
     .quienesomostexto{
-        font-size: 28px;
+        font-size: 16px;
         padding-top: 15px;
     }
 }
@@ -1281,6 +1281,7 @@ carousel-inner-img {
 .card-group{
     margin-bottom: 15px;
 }
+
 .contenedornuestroespacio{
     display: flex;
     flex-direction: row;
@@ -1302,6 +1303,11 @@ carousel-inner-img {
         margin-left: 5px;
         margin-right: 5px;
         overflow: hidden;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px){
+    .contenedornuestroespacio{
+
     }
 }
 .nuestroespaciofotos1{
@@ -1372,11 +1378,32 @@ p {
 /*TERAPIAS*/
 
 .listaterapias{
-    font-family: "Rubik" sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family: "Rubik" sans-serif;   
+    font-size: 16px;
+    text-align: left;
     
+}
+@media (max-width: 600px){
+    .listaterapias{
+        width:auto;
+        padding-top: 5px;
+        
+        
+    }
+}
+
+.divfotospracticas{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to right, rgb(123, 139, 122), rgb(236, 214, 15));
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0px;
+    gap: 10px;
     justify-content: center;
-    
-    padding-right: 15px;
-    font-size: 14px;
-    
 }
