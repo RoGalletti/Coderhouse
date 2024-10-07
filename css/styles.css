@@ -1375,7 +1375,7 @@ p {
     margin: 5px 0 0;
 }
 
-/*TERAPIAS*/
+/*PRACTICAS COMPLEMENTARIAS*/
 
 .listaterapias{
     display: flex;
@@ -1394,16 +1394,89 @@ p {
     }
 }
 
-.divfotospracticas{
+
+.botonespracticas{
     display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
-    background-image: linear-gradient(to right, rgb(123, 139, 122), rgb(236, 214, 15));
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 0px;
-    gap: 10px;
+    flex-direction: column;
+    width: 30%;
     justify-content: center;
+     
+}
+
+@media (max-width: 600px){
+    .botonespracticas{
+
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px){
+    .botonespracticas{
+        width: 100%;
+        height: auto;
+
+    }
+}
+.btn-fondo {
+    transition: background-color 0.93s ease; /* Efecto suave al cambiar de color */
+    background-color: #0b755e; /* Color de fondo del contenedor */
+    color: white;
+    padding: 20px;            /* Espaciado alrededor del botón */
+    border-radius: 8px;
+    border-color: grey;       /* Bordes redondeados del contenedor */
+    text-align: center; 
+}
+
+.btn-fondo:hover {
+    background-color: #d2f318; /* Cambia este color al que desees (ejemplo: azul) */
+    color: white; /* Cambia el color del texto si es necesario */
+}
+
+
+
+
+.div-btn-txt{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to left, grey, rgb(138, 138, 61) );
+    width: 100%;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 0px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+.info-practicas{
+    display: flex;
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:  rgb(79, 107, 79);
+    border-radius: 15px;
+}
+.fotospracticas{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to left, grey, rgb(138, 138, 61) );
+    justify-content: center;
+}
+
+.fotospracticas2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    justify-content: center;
+    gap: 15px;
+    
+    
+}
+.img-fluid{
+    border-radius: 5px;
+    border-style: groove;
+    border-color: yellow;
 }
