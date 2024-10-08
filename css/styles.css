@@ -757,45 +757,6 @@ carousel-inner-img {
     }
 }
 
-/*.footercolumn{
-    {
-        height: 15px;
-        display: flex;
-        flex-direction: row;
-        background-color: rgb(163, 162, 162);
-        font-size: 12px; 
-        padding: 15px; 
-        box-sizing: border-box;
-        margin-top: 15px;
-
-    }
-   
-
-@media (max-width: 600px) {
-    .footercolumn {
-        font-size: 12px; 
-        padding: 10px; 
-    }
-}
-
-
-@media (min-width: 601px) and (max-width: 1024px) {
-    .footercolumn {
-        font-size: 13px; 
-        padding: 12px; 
-    }
-}
-
-
-@media (min-width: 1025px) {
-    .footercolumn {
-        font-size: 10px; 
-        padding: 15px;
-        margin-top: 18px;
-    }
-}*/
-
-}
 .titulofooter{
     font-size: 2vw;
 }
