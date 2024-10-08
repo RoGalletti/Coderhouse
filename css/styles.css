@@ -604,36 +604,6 @@ carousel-inner-img {
         
     }
 }
-.subrayado{
-    /*text-decoration: underline; 
-    font-size: 3vw; 
-    box-sizing: border-box; 
-    padding: 5px; */
-}
-
-@media (max-width: 600px) {
-    .subrayado {
-        font-size: 3.5vw; 
-        padding: 4px; 
-    }
-}
-
-
-@media (min-width: 601px) and (max-width: 1024px) {
-    .subrayado {
-        font-size: 5vw; 
-        padding: 4.5px; 
-    }
-}
-
-
-@media (min-width: 1025px) {
-    .subrayado {
-        font-size: 5vw; 
-        padding: 5px;
-    }
-}
-
 
 
 .div{
@@ -942,33 +912,6 @@ carousel-inner-img {
     }
 }
 
-
-.tamanotesto{                   /*REVISAR SI ESTA EN USO*/
-    font-size: 18px;
-}
-
-@media (max-width: 600px) {
-    .tamanotesto {
-        font-size: 5vw; 
-        line-height: 1.5; 
-    }
-}
-
-
-@media (min-width: 601px) and (max-width: 1024px) {
-    .tamanotesto {
-        font-size: 4.5vw; 
-        line-height: 1.45; 
-    }
-}
-
-
-@media (min-width: 1025px) {
-    .tamanotesto {
-        font-size: 18px; 
-        line-height: 1.4; 
-    }
-}
 .carruselbackground{
     display: flex;
     flex-direction: column;
@@ -1025,12 +968,6 @@ carousel-inner-img {
     }
 }*/
 
-/*.tamanocarousel2{
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-
-}*/
 
 .texto{
     padding-left: 5%;
@@ -1062,25 +999,7 @@ carousel-inner-img {
     }
 }
 
-/*.h2{
-    display: flex;
-    flex-direction: row;
-    font-size: 5vw;
-    border-top: 10px;
-    padding-top: 5vw;
-    text-decoration:underline;
-}
-@media (max-width: 600px) {
-    .h2 {
-        font-size: 6vw; 
-    }
-}
-@media (min-width: 1025px) {
-    .h2 {        
-        font-size: 58px;
-        padding-top: 15px; 
-    }
-}*/
+
 
 .contenedordostexto{
     display: flex;
@@ -1112,30 +1031,7 @@ carousel-inner-img {
         font-size: 16px;
     }
 }
-/*.divcarruselprincipal{
-    display: flex;
-    flex-wrap: wrap; /
-    padding-left: 5px;
-    width: 100%; 
-    box-sizing: border-box; 
-    
-}
-@media (max-width: 767px) {
-    .divcarruselprincipal {
-        
-    }
 
-}
-@media (max-width: 1023px) and (min-width: 768px) {
-    .divcarruselrincipal {
-        
-    }
-}
-@media (min-width: 1024px) {
-    .divcarruselprincipal {
-        
-    }
-}*/
 .carrusel-item {
     flex: 1 1 30%; 
     padding: 10px; 
@@ -1423,18 +1319,18 @@ p {
     }
 }
 .btn-fondo {
-    transition: background-color 0.93s ease; /* Efecto suave al cambiar de color */
-    background-color: #0b755e; /* Color de fondo del contenedor */
+    transition: background-color 0.93s ease; 
+    background-color: #0b755e; 
     color: white;
-    padding: 20px;            /* Espaciado alrededor del botón */
+    padding: 20px;            
     border-radius: 8px;
-    border-color: grey;       /* Bordes redondeados del contenedor */
+    border-color: grey;     
     text-align: center; 
 }
 
 .btn-fondo:hover {
-    background-color: #d2f318; /* Cambia este color al que desees (ejemplo: azul) */
-    color: white; /* Cambia el color del texto si es necesario */
+    background-color: #d2f318; 
+    color: white; 
 }
 
 

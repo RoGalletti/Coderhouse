@@ -1,3 +1,97 @@
-header{
+
+.header{
+    width: 768px; 
+    height: 100px;
+    display: flex; 
+}  
+.tituloencabezado{
+    font-family: "Rubik" sans-serif white;
+    width: 100%;
+    height:auto;
+    background-color: rgb(236, 214, 15);
+    display: flex;
+    flex-direction: row;
+    font-size: 5vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: 0px;
+    color: rgb(123, 139, 122);
+    padding: 0 5%;
+    box-sizing: border-box;
+
+}
+
+
+@media (max-width: 600px) {
+    .tituloencabezado {
+        display: flex;
+        flex-direction: column;
+        font-size: 7vw; 
+        padding: 0 8%; 
+        
+        
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .tituloencabezado {
+        font-size: 3vw; 
+        /*padding: 0 7%; */
+      
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .tituloencabezado {
+        font-size: 5vw; 
+        padding: 0 5%; 
+         
+    }
+}
+ .silencioysalud{
+    display: flex;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 30px;
     
+ }   
+ @media (max-width: 600px) {
+    .silencioysalud{
+        height: 30px;
+    }
+ } 
+.iconosredes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 18px 5% 5px 5%;
+    gap: 20px;
+    font-size: 2vw;
+    margin-bottom: 20px;
+    margin-left: auto;
+    
+} 
+
+@media (max-width: 600px) {
+    .iconosredes {
+        display: flex;
+        flex-direction: row;
+        font-size: 2vw; 
+        padding-top: 0px;
+        padding-right: 90px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .iconosredes {
+        font-size:3vw; 
+        gap: 25px; 
+    }
 }
